@@ -60,5 +60,11 @@ for (var i = 0; i < cards.length; i++){
 
 createBoard();
 
+var buttonElement = document.getElementById('button');
+	
+	var resetCards = function(){ 
+		console.log("User reset cards.");
+		location.reload();
+}
+		buttonElement.addEventListener('click', resetCards);
 
-/*var buttonElement = document.createElement('button')*/
